@@ -1,0 +1,93 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:flex-start;
+padding:40px 0;
+background:linear-gradient(135deg,#ffe4ec,#ffd6e7,#fff0f5);
+background-size:300% 300%;
+animation:fundoAnimado 12s ease infinite;
+}
+
+.container{
+background:white;
+padding:40px;
+border-radius:15px;
+width:90%;
+max-width:500px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1{
+text-align:center;
+margin-bottom:25px;
+color:#c48a2c;
+}
+
+form{
+display:flex;
+flex-direction:column;
+
+gap:12px;
+}
+
+label{
+font-weight:bold;
+color:#c48a2c;
+}
+
+input{
+padding:10px;
+border-radius:8px;
+border:1px solid #f3c6d6;
+outline:none;
+transition:0.3s;
+}
+
+input:focus{
+border-color:#d4a437;
+box-shadow:0 0 6px rgba(212,164,55,0.5);
+
+}
+
+button{
+margin-top:15px;
+padding:12px;
+border:none;
+border-radius:8px;
+background:#d4a437;
+color:white;
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;
+
+}
+
+button:hover{
+background:#b8922e;
+transform:scale(1.03);
+
+}
+
+@keyframes fundoAnimado{
+
+0%{
+background-position:0% 50%;
+}
+
+50%{
+background-position:100% 50%;
+}
+
+100%{
+background-position:0% 50%;
+}
+
+}
