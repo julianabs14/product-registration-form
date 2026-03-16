@@ -104,6 +104,6 @@ Esse projeto foi criado para praticar:
 **Juliana Bezerra**  
 **EN** — Software Engineering student passionate about **astrophysics, data analysis, and software development**.  
 This project is part of my learning journey — one step at a time toward mastering the world of technology. 🚀  
-
+#uptade
 **PT-BR** — Estudante de **Engenharia de Software**, apaixonada por **astrofísica, análise de dados e desenvolvimento de software**.  
 Esse projeto faz parte da minha jornada de aprendizado — um passo de cada vez rumo a dominar o mundo da tecnologia. 🚀  
