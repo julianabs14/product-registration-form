@@ -9,7 +9,7 @@ function acessarSistema(){
         let senha = document.getElementById("senha").value
 
         if (email === "juliana@email.com" && senha === "123456"){
-            window.location.href = "index.html"
+            window.location.href = "cadastro.html"
         }else{
             alert("Login incorreto")
         }
